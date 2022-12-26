@@ -120,8 +120,8 @@ html, body {
     opacity: 1;
  }
  .cube{
-    width: 610px;
-    height: 229px;
+    width: 50%;
+    
     position: relative;
     top: -270px; left: 20px;
     border: 5px solid rgb(4, 213, 236, 0.743);
