@@ -149,13 +149,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-body {
-  color: #666;
-  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.4;
-}
+
 
 a {
   text-decoration: none;
