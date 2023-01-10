@@ -47,10 +47,10 @@ html, body {
  .intro_title{
     color: rgb(0, 0, 0);
 
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 40px;
+    width: 60%;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     line-height: 1.1;
  }
   
@@ -67,7 +67,7 @@ html, body {
  }
 
  .header_inner{
-
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,4 +118,34 @@ html, body {
  .nav_link:hover:after{
     display: block;
     opacity: 1;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .oval_holder {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .oval1 {
+    background-color: rgb(255, 156, 9);
+    border-radius: 30px;
+    position: relative;
+    top: 270px; left: 0px;
+    border: 5px solid white;
+     
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    
  }
