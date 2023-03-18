@@ -21,7 +21,7 @@
     -moz-transition: right 0.3s;
     transition: right 0.3s;
     /* определяем цвет фона панели */
-    background: #ffffff;
+    background: #000000;
     /* поверх других элементов */
     z-index: 2000;
 }
@@ -43,7 +43,7 @@
     */
     background: inherit;
     /* цвет текста */
-    color: #000000;
+    color: #ffffff;
     /* вид курсора */
     cursor: pointer;
     /* размер шрифта */
@@ -71,7 +71,7 @@
 /* цвет текста при наведении */
 
 .nav-toggle:hover {
-    color: #ff0000;
+    color: #f4f4f4;
 }
 
 
@@ -130,7 +130,6 @@
 
 body {
     -webkit-animation: bugfix infinite 1s;
-    
 }
 
 @-webkit-keyframes bugfix {
@@ -169,7 +168,7 @@ body {
     padding: 0;
     margin: 10px 0;
     text-align: center;
-    text-shadow: rgb(255, 255, 255) -1px -1px 1px, rgba(0, 0, 0, .5) 1px 1px 1px;
+    text-shadow: rgba(255, 255, 255, 0.1) -1px -1px 1px, rgba(0, 0, 0, .5) 1px 1px 1px;
     font-size: 1.3em;
     line-height: 1.3em;
     opacity: 0;
@@ -188,7 +187,7 @@ body {
 }
 
 .nav h2 a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -277,7 +276,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.2em;
-    color: #000000;
+    color: #dadada;
     width: 100%;
     text-decoration: none;
     /* плавный переход */
@@ -291,7 +290,7 @@ body {
 
 .nav > ul > li > a:hover,
 .nav > ul > li > a:focus {
-    color: rgb(255, 0, 0);
+    color: white;
     padding-left: 15px;
 }
 
@@ -320,7 +319,7 @@ body {
     bottom: 0;
     height: 1px;
     width: 100%;
-    background: #000000;
+    background: #ffffff;
     -webkit-transition: width .5s ease;
     transition: width .5s ease;
 }
