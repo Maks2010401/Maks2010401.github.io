@@ -250,6 +250,8 @@ body{
   flex-basis: auto;
   flex-direction: column;
   padding: 0px;
+  color: #000000;
+  border: 5px solid;
   }
   
   .article-title {
@@ -262,6 +264,8 @@ body{
   position: relative;
   left: 10px;
   text-align: center;
+  
+  
   
   }
   
@@ -278,6 +282,7 @@ body{
   color: #000000;
   
   
+  
   }
   
   .article-info {
@@ -290,7 +295,9 @@ body{
   left: 10px;
   text-align: center;
   color: #000000;
-  
+  border: 5px solid;
+  top: -5px;
+  width: 20%;
   
   }
   
