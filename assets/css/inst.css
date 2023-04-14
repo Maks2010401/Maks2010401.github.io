@@ -209,7 +209,8 @@ body{
   
   .main {
   margin: 120px auto;
-  max-width: 90%;
+  max-width: 800px;
+  width: 80%;
   
   
   
@@ -255,6 +256,7 @@ body{
   padding: 0px;
   color: #000000;
   border: 5px solid;
+  
   }
   
   .article-title {
