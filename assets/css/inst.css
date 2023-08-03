@@ -1,9 +1,10 @@
 body{
   background: url("../images/i10.png") center repeat;
+  width: 100%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   line-height: 1.7;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   
   
 
