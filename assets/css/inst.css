@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(172, 255, 241);
+  background: url("../images/i10.png") center repeat;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   line-height: 1.7;
@@ -220,7 +220,7 @@ width: 80%;
 
 
 .article {
-background: white;
+background: rgb(7, 49, 156);
 box-shadow: 0 1px 3px rgb(255, 255, 255), 0 1px 2px rgb(255, 255, 255);
 color: #666;
 display: flex;
@@ -254,7 +254,7 @@ flex: 1;
 flex-basis: auto;
 flex-direction: column;
 padding: 0px;
-color: #000000;
+color: #ffffff;
 border: 5px solid;
 
 
